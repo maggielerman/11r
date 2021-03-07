@@ -18,7 +18,7 @@ View the [demo](https://reeseschultz.github.io/11r/).
 - [Pagination](https://www.11ty.dev/docs/pagination/).
 - Deploy script for [GitHub Pages](https://pages.github.com/) via `deploy.sh`, using the `gh-pages` branch. Be sure to edit said script to work with your repository. Remember to also configure the repository appropriately.
 - Exemplary [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) usage.
-- SEO mostly done for you. Ensure you replace the data referenced in `src/globals/site.json`, including the images in `public/`.
+- SEO mostly done for you. Ensure you replace the data referenced in `src/globals/site.json`, including the images in `img/`.
 
 ## Setup
 

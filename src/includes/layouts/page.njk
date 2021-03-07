@@ -32,13 +32,14 @@
 
     <link rel="stylesheet" href="{{ site.baseUrl }}assets/main.bundle.css">
 
-    {% block head %}{% endblock %}
+     {{ content | safe }}
   </head>
   <body class="flex flex-col min-h-screen">
     {% include 'top-notice.njk' %}
     {% include 'header.njk' %}
     <main class="container mx-auto max-w-3xl p-8 flex-grow">
-      {% block body %}{% endblock %}
+      {% block body %}
+      {% endblock %}
     </main>
     {% include 'footer.njk' %}
     {% include 'privacy-notice.njk' %}

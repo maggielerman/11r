@@ -1,4 +1,5 @@
 ---
+
 pagination:
   data: collections
   size: 1
@@ -13,7 +14,7 @@ eleventyComputed:
 permalink: /tag/{{ tag }}/
 ---
 
-{% extends 'page.njk' %}
+{% extends 'layouts/page.njk' %}
 
 {% block body %}
   <p class="text-center text-sm italic mb-6">(Posts filtered by <strong>{{tag}}</strong>.)</p>

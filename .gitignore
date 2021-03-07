@@ -78,13 +78,7 @@ web_modules/
 .cache
 .parcel-cache
 
-# Next.js build output
-.next
-out
 
-# Nuxt.js build / generate output
-.nuxt
-dist
 
 # Gatsby files
 .cache/
@@ -92,8 +86,7 @@ dist
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
-# vuepress build output
-.vuepress/dist
+
 
 # Serverless directories
 .serverless/
@@ -116,3 +109,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Local Netlify folder
+.netlify

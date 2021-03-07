@@ -2,7 +2,7 @@
 permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug }}{% endif %}/index.html"
 ---
 
-{% extends 'page.njk' %}
+{% extends 'layouts/page.njk' %}
 
 {% block body %}
     <p>{{url}}</p>
@@ -55,3 +55,4 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
         {% endif %}
     </div>
 {% endblock %}
+
